@@ -16,6 +16,7 @@ class ViewController: UIViewController {
     }
     func weatherReport(){
         imageView.frame = CGRect(x: 100, y: 60, width: 110, height: 90)
+        imageView.image = UIImage(named: "square.and.arrow.up")
     }
 
 }
